@@ -1,0 +1,10 @@
+.excel-table th {
+    background-color: #f2f2f2; /* Svetlija siva pozadina za zaglavlje */
+    font-weight: 600; /* Postavi semi-bold umesto bold */
+    color: #4a4a4a;
+    border: 1px solid #cccccc; /* Tanji sivi border za zaglavlje */
+    font-size: 12px; /* Smanjena veličina fonta */
+    /* Koristi sticky za zaglavlja */
+    top: 0; /* Fiksiraj zaglavlja na vrh */
+    z-index: 2; /* Osiguraj da zaglavlja budu iznad ostalih elemenata */
+}
